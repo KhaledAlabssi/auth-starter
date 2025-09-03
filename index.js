@@ -446,6 +446,7 @@ app.get("/orders", async (req, res) => {
 });
 
 // POST /orders - Create a new order
+// request body should looks like: {"userId": 1, "products":[{"productId": 2, "quantity": 3}, {"productId": 1, "quantity": 6}]}
 app.post("/orders", async (req, res) => {
   try {
     const { userId, products: orderProducts } = req.body;
