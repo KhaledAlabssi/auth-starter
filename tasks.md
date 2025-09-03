@@ -1,0 +1,2 @@
+- Orgnise the project into (routes, controller, db)
+- Apply auth steps from previous lecrure
